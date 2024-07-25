@@ -274,7 +274,7 @@ h5 {
      display: flex;
      justify-content:space-around;
      align-items: center;
-     background-color: #222222da;
+     background-color: #222222;
      flex-direction: row;
      padding: 25px;
      margin-left: 30px;
@@ -457,7 +457,7 @@ h5 {
 .Calculator {
      display: flex;
      justify-content:space-around;    
-     background-color: #1b1b1b;
+     background-color: #222222;
      flex-direction:row;
      padding:60px 155px 60px 155px;
      gap: 100px; 
@@ -522,14 +522,14 @@ border-collapse: collapse;
 }
 
 .table thead {
-     color: #b0b0b0;
+     color: #ffffff;
 }
 .table tbody {
      color: #b0b0b0;
 }
 .table th,td {
-     padding: 12px 15px;
-     border-color: #b0b0b0;
+     padding: 15px 15px;
+     border-color: #3c3c3c;
      border-width: 1px;
      border-style: solid;
 }
@@ -642,7 +642,7 @@ border-collapse: collapse;
 /* team css end here */
 /* footer css start here */
 .footer {
-     background-color: #1b1b1b;
+     background-color: #222222;
      padding: 70px 15px;
      display: flex;
      justify-content:space-evenly;        
@@ -671,7 +671,7 @@ border-collapse: collapse;
      margin-bottom: 40px;
 }
 .copyright {
-     background-color: #1b1b1b;
+     background-color:#222222;
      padding: 20px 15px;
      display: flex;
      justify-content:space-around;           
