@@ -474,7 +474,7 @@ h5 {
      margin-bottom: 10px;
 }
 
-.table select,input {
+.form select,input {
      background-color:  #3c3c3c;
      padding: 12px;
      border-radius:5px;
@@ -507,7 +507,7 @@ h5 {
      
      
 }
-.table select  {  
+.form select  {  
      color:#b0b0b0;
 }
 .BMI-calculator-chart{
@@ -515,7 +515,7 @@ h5 {
     
 }
 .table { 
-
+text-align: left;
 }
 
 
