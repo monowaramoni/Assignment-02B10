@@ -108,7 +108,7 @@ h5 {
      padding: 15px;
      padding-top: 160px;
      padding-bottom:0px;
-     background: linear-gradient(180deg, #101010 1000%, rgba(52, 52, 52, 0) 100%);
+     background: linear-gradient(180deg, #000000 50%, rgba(67, 67, 67, 0)310%);
      column-gap: 140px;
      margin-top: -140px; 
      
@@ -116,8 +116,8 @@ h5 {
 }
 .shape{
 
-     font-family: 'Miama', sans-serif;                                                                                                                         
-     font-weight: 400;
+     font-family: 'Miama',sans-serif;                                                                                                                         
+     font-weight: 300;
      font-size: 73px;
      font-style: Italic;
 }
@@ -130,6 +130,10 @@ h5 {
      font-weight: 900;
      font-size: 78;
     
+     
+}
+.column-2 {
+     margin-bottom: -04px;
      
 }
 
@@ -534,7 +538,7 @@ border-collapse: collapse;
      color: #b0b0b0;
 }
 .table th,td {
-     padding: 15px 20px;
+     padding: 13px 20px;
      border-color: #3c3c3c;
      border-width: 1px;
      border-style: solid;
