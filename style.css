@@ -96,6 +96,21 @@ h5 {
 
 }
 
+/* header section responsive here */
+
+@media screen  and ( max-width : 576px) {
+     .logo {
+          width: 30%;
+     }
+     .nav {
+          width:70% ;
+
+     }
+     .banner {
+           
+     }
+}
+
 /* Header section css end here */
 
 /* Banner css star here */
@@ -115,10 +130,11 @@ h5 {
 }
 .shape{
 
-     font-family: 'Miama',sans-serif;                                                                                                                         
+     font-family: 'Miama Nueva' sans-serif;                                                                                                                                                                        
      font-weight: 300;
      font-size: 73px;
      font-style: Italic;
+     overflow: hidden;
 }
 .banner-p {
      padding-top: 20px;
@@ -215,7 +231,7 @@ h5 {
      margin: 0px;
      padding: 0px;
 }
-
+/* banner section responsive here */
 
 /* Banner css end here */
 /* Change your Habits section css start here */
