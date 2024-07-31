@@ -554,12 +554,22 @@ border-collapse: collapse;
 
 /* BMI-calculator-chart css end here */
 /* team css start here */
+.meet-our-team{
+     display: flex;
+     justify-content:space-between;    
+     background-color: #000000;
+     flex-direction:column;
+     padding:20px 55px 20px 55px;
+     row-gap:10px; 
+     align-items: center; 
+
+}
 .Team {
      display: flex;
      justify-content:space-between;    
      background-color: #000000;
      flex-direction:column;
-     padding:60px 55px 60px 55px;
+     padding:60px 55px 0px 55px;
      row-gap:10px; 
      align-items: center;   
      
@@ -655,6 +665,16 @@ border-collapse: collapse;
      border-radius: 15px;
      margin: 10px;
      
+}
+/* team responsive start here */
+@media screen and (max-width : 576px) {
+     .Team { 
+
+          
+     
+
+     
+}
 }
 
 /* team css end here */
