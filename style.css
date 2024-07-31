@@ -99,16 +99,7 @@ h5 {
 /* header section responsive here */
 
 @media screen  and ( max-width : 576px) {
-     .logo {
-          width: 30%;
-     }
-     .nav {
-          width:70% ;
-
-     }
-     .banner {
-           
-     }
+     
 }
 
 /* Header section css end here */
@@ -233,7 +224,9 @@ h5 {
 }
 /* banner section responsive here */
 
+
 /* Banner css end here */
+
 /* Change your Habits section css start here */
 
 
@@ -714,7 +707,27 @@ border-collapse: collapse;
    padding-right: 450px;
    padding-left: 450px;
 }
+/* footer responsive start here */
+@media screen and (max-width : 576px) {
 
+     .footer {
+          flex-direction:column;
+          padding: 30px 20px;
+          align-items: self-start;
+
+     }
+     .footer-colum p {
+          margin-bottom: 0px;
+     }
      
+     .copyright p {
+
+          padding-left:10px;
+          padding-right:250px;
+          text-align: start;
+                   
+     }
+       }
+/* Footer small device responsive end */
 
 
