@@ -729,5 +729,34 @@ border-collapse: collapse;
      }
        }
 /* Footer small device responsive end */
+@media screen and (min-width : 576px) and (max-width : 992px){
+
+     .copyright p {
+
+          padding-left:170px;
+          padding-right:170px;
+          text-align: center;
+                   
+     }
+
+     .footer-colum {
+          width: 90%;
+ 
+     }
+     .Get-Started {
+           
+          width: 330px;
+     }
+
+     .footer {
+          
+          padding: 30px 20px;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+
+     }
+
+     }
+
 
 
