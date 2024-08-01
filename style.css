@@ -668,14 +668,22 @@ border-collapse: collapse;
 }
 /* team responsive start here */
 @media screen and (max-width : 576px) {
+
+     .team-trainer {
+          margin-left: 5px;
+          margin-right: 5px;
+          width: calc(100% - 2px);
+     }
      .Team { 
+          text-align: center;
+          padding: 30px 15px 0px 15px;
 
-          
-     
+ 
+}
 
-     
 }
-}
+
+
 
 /* team css end here */
 /* footer css start here */
@@ -742,8 +750,8 @@ border-collapse: collapse;
      
      .copyright p {
 
-          padding-left:10px;
-          padding-right:100px;
+          padding-left:0px;
+          padding-right:120px;
           text-align: start;
                    
      }
