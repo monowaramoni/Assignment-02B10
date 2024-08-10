@@ -25,11 +25,18 @@ h1 {
 h2 {
      font-size: 50px;
 }
-
+@media screen and (max-width :576px){
+     h2 {
+          font-size: 40px;
+     }    
+}
 h3 {
      font-size: 35px;
 }
-
+@media screen and (max-width :576px){
+     h3 {
+          font-size: 24px;
+     }  }
 h4{ 
      font-size: 20px;
 
@@ -95,11 +102,78 @@ h5 {
 
 
 }
+/* header resposive here */
 
 /* header section responsive here */
 
 @media screen  and ( max-width : 576px) {
-     
+     .header {
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 20px;
+          margin-bottom: 15px;
+     }
+     .logo {
+          
+          font-size: 66px;
+          
+     }
+     .nav {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          border-radius: 50px;
+          border-width: 2px;
+          border-color: #49494969;
+          width: 25%;
+          border-width: 1px;
+          border-style: solid;
+              
+     }
+     .nav a  {
+        
+          text-decoration: none;
+          color: #fff;  
+          padding: 10px 35px; 
+          gap: 10px;
+          font-size: 12px;
+     }
+}
+@media screen and (min-width : 576px) and (max-width : 992px) {
+     .nav a  {
+        
+          text-decoration: none;
+          color: #fff;  
+          padding: 10px 35px; 
+          gap: 10px;
+          font-size: 12px;
+     }
+     .header {
+          display: flex;
+          justify-content:space-around;
+          align-items: left;
+          padding-top: 10px;    
+          column-gap: 20px;
+          z-index: 10px;
+     }
+     .logo {
+          
+          font-size: 56px;
+          
+     }
+     .nav {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          border-radius: 50px;
+          border-width: 2px;
+          border-color: #49494969;
+          width: 55%;
+          border-width: 1px;
+          border-style: solid;
+              
+     }
+    
 }
 
 /* Header section css end here */
@@ -130,6 +204,7 @@ h5 {
 .banner-p {
      padding-top: 20px;
      padding-bottom:40px;
+     
      
 }
 .banner-h1 {
@@ -182,16 +257,7 @@ h5 {
  }
 
 
-.column-1 {
-     
-     
-}
 
-.column-2 {
-     
-     
-
-}
 .mini-box-1 {
      padding: 15px 12PX;
      background-color: #f3f3f31b;
@@ -224,6 +290,68 @@ h5 {
 }
 /* banner section responsive here */
 
+@media screen and (max-width : 576px) {
+     .banner {
+         
+          flex-direction: column;
+          margin-top: -170px; 
+  
+     }
+     .shape{
+  
+          font-size: 50px;  
+     }
+     .banner-h1 {
+         
+          font-size:35;
+  
+     }
+     .banner-p {
+          padding-top: 20px;
+          padding-bottom:50px;
+          font-size: 18px;
+          
+     }
+     .column-2 {
+          margin-bottom: -04px;
+          padding-top: 30px;
+          
+     }
+
+}
+@media screen and (min-width : 576px) and (max-width : 992px) {
+     .banner {
+         
+          flex-direction: column;
+  
+     }
+     .shape{
+  
+          font-size: 56px;  
+     }
+     .banner-h1 {
+         
+          font-size:38;
+  
+     }
+     .banner-p {
+          padding-top: 20px;
+          padding-bottom:50px;
+          font-size: 18px;
+          
+     }
+     .column-2 {
+          margin-bottom: -04px;
+          padding-top: 30px;
+          
+     }
+     .column-1 {
+          padding: 20px;
+          width: 100%;
+          align-items: flex-start;
+     }
+}
+
 
 /* Banner css end here */
 
@@ -244,20 +372,16 @@ h5 {
      align-items: center;
      display: flex;
      margin: 30px 90px 30px 90px;
-   
-
 
 }
 .card {
-     
 
      padding: 10px;
      align-items: center;
      justify-content:space-evenly;
      text-decoration: none;
      text-align: center;
-     
-    
+
 }
 .card img {
      border-radius:250px;
@@ -267,8 +391,53 @@ h5 {
 .card p{
      
      padding: 15px;
+     align-items: center;
 }
+@media screen and (max-width : 576px) {
 
+     .Change-your-habits{
+          padding: 30px 15px;
+
+ 
+     }
+     .inner-section  { 
+          align-items: center;
+          display: flex;
+          margin: 30px 30px 30px 30px;
+          flex-wrap: wrap;
+   
+     }
+     .Change-your-habits p{
+     
+          padding: 15px;
+         text-align: center;
+     }
+    
+   
+
+     
+}
+@media screen and (min-width : 576px) and (max-width : 992px){
+
+     .Change-your-habits{
+          padding: 30px 35px;
+ 
+     }
+     .inner-section  { 
+          align-items: center;
+          display: flex;
+          margin: 30px 30px 30px 30px;
+          flex-direction:column;
+     
+     }
+     .Change-your-habits p{
+     
+          padding: 15px;
+         text-align: center;
+     }
+   
+}
+/* Change your Habits section responsive css end here */
 /* Change your Habits section css end here */
 /*Run an Extra Mile Easily css start here*/
 
@@ -320,6 +489,59 @@ h5 {
      border-style: groove;
      color: #ffffff;
 }
+
+@media screen and (max-width : 576px) {
+     .inner-section-run {   
+          flex-direction:column;  
+          column-gap: 130px;
+     }
+    
+     .Run-an-Extra {
+    
+          padding:0px 20px 0px 20px;
+          
+
+     }
+     .Run-an-Extra img {
+          width:350px;   
+          border-radius: 10px;
+          margin-top: 50px;
+     
+     }
+     .card p{
+     
+          padding: 0px;
+     }
+}
+
+@media screen and (min-width : 576px) and (max-width : 992px) {
+     .inner-section-run {   
+          flex-direction:row;  
+          column-gap: 10px;
+          
+     }
+     .Run-an-Extra {
+
+          flex-direction: column;
+          padding:20px 10px 20px 10px;
+          
+
+     }
+     .card p{
+     
+          padding: 0px;
+     }
+
+     .Run-an-Extra img {
+          width:280px;   
+          border-radius: 10px;
+
+     }
+     .container-1 {
+          padding-bottom: 20px;
+     }
+}
+/* Run an Extra Mile Easily resposive here */
 /* Run an Extra Mile Easily css end here */
 /* Trainings and Exercises css stat here */
 .trainings-and-exercises {
@@ -444,6 +666,81 @@ h5 {
 .trainings-6 p{
      color: #ffffff;
 }
+@media screen and (max-width : 576px) {
+     .trainings-and-exercises {
+        
+          padding:20px 30px; 
+          margin: 0px;
+         
+     }
+    .trainings-1 {
+     width: 50%;
+     padding: 15px; 
+     height: 200px;
+    }
+    .trainings-2 {
+     width: 50%;
+     padding: 15px; 
+     height: 200px;
+    }
+    .trainings-3 {
+     width: 40%;
+     padding: 15px; 
+     height: 200px;
+    }
+    .trainings-4 {
+     width: 60%;
+     padding: 15px; 
+     height: 200px;
+    }
+    .trainings-5 {
+     width: 60%;
+     padding: 15px; 
+     height: 200px;
+    }
+    .trainings-6 {
+     width: 40%;
+     padding: 15px; 
+     height: 200px;
+    }
+}
+@media screen and (min-width : 576px) and (max-width : 992px) {
+     .trainings-and-exercises {
+          padding:20px 30px; 
+          margin: 0px;
+         
+     }
+    .trainings-1 {
+     width: 50%;
+     padding: 15px; 
+     height: 200px;
+    }
+    .trainings-2 {
+     width: 50%;
+     padding: 15px; 
+     height: 200px;
+    }
+    .trainings-3 {
+     width: 40%;
+     padding: 15px; 
+     height: 200px;
+    }
+    .trainings-4 {
+     width: 60%;
+     padding: 15px; 
+     height: 200px;
+    }
+    .trainings-5 {
+     width: 60%;
+     padding: 15px; 
+     height: 200px;
+    }
+    .trainings-6 {
+     width: 40%;
+     padding: 15px; 
+     height: 200px;
+    }
+}
 
 
 /* BMI-Calculator css start here */
@@ -470,6 +767,7 @@ h5 {
 
 
 /* BMI-Calculator css end here */
+
 /* BMI-calculator-chart css start here */
 .Calculator {
      display: flex;
@@ -551,7 +849,55 @@ border-collapse: collapse;
      border-width: 1px;
      border-style: solid;
 }
+ @media screen and (max-width : 576px){
+     .Calculator {
+          display: flex;
+          background-color: #222222;
+          flex-direction:column;
+          padding:80px 15px 80px 15px;
+          gap: 50px; 
+          align-items: center;  
+         
+     }
+     .BMI-calculator-chart{
+          width: 100%;         
+     }
+     .BMI-calculator-form{
+          width: 100%;
+     
+     }
+     
+     .table {      
+          margin-top: 20px;
+             
+          }
+          
+}
+@media screen and (min-width : 576px) and (max-width : 992px){
+     .Calculator {
+          display: flex;
+          background-color: #222222;
+          flex-direction:column;
+          padding:80px 35px 80px 35px;
+          gap: 50px; 
+          align-items: center;  
+         
+     }
+     .BMI-calculator-chart{
+          width: 100%;         
+     }
+     .BMI-calculator-form{
+          width: 100%;
+     
+     }
+     
+     .table {      
+          margin-top: 20px;
+             
+          }
 
+}
+/* Bmi-calculator-chat resposive */
 /* BMI-calculator-chart css end here */
 /* team css start here */
 .meet-our-team{
@@ -670,9 +1016,9 @@ border-collapse: collapse;
 @media screen and (max-width : 576px) {
 
      .team-trainer {
-          margin-left: 5px;
-          margin-right: 5px;
-          width: calc(100% - 2px);
+          margin-left: 15px;
+          margin-right: 15px;
+          
      }
      .Team { 
           text-align: center;
@@ -681,6 +1027,11 @@ border-collapse: collapse;
  
 }
 
+.trainer-1, .trainer-2, .trainer-3, .trainer-4, .trainer-5, .trainer-6 {
+     height: 350px;
+     width: 340px;
+}
+     
 }
 @media screen and (min-width : 576px) and (max-width : 992px){
      .meet-our-team{
@@ -695,7 +1046,7 @@ border-collapse: collapse;
      }
      .Team { 
           text-align: center;
-          padding: 30px 15px 0px 15px;
+          padding: 30px 25px 0px 25px;
 
 
  
@@ -713,12 +1064,12 @@ border-collapse: collapse;
      flex-wrap: wrap;
     
 }
-
 .trainer-1, .trainer-2, .trainer-3, .trainer-4, .trainer-5, .trainer-6 {
      height: 280px;
-     width: 210px;
+     width: 320px;
 }
      
+
 }
 /* team section medium devices responsive end here */
 
