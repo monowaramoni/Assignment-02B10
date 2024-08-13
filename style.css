@@ -546,7 +546,6 @@ h5 {
 
           flex-direction: column;
           padding:20px 10px 20px 10px;
-          
 
      }
      .card p{
@@ -557,7 +556,6 @@ h5 {
      .Run-an-Extra img {
           width:280px;   
           border-radius: 10px;
-
      }
      .container-1 {
           padding-bottom: 20px;
@@ -584,7 +582,6 @@ h5 {
      flex-wrap: wrap;    
      row-gap: 0px;
      margin-top: 30px;
-
 }
 .trainings-1 {
      background-image: url(images/exercise1.jpg);
@@ -614,8 +611,7 @@ h5 {
      margin: 0%;
      padding: 25px; 
      height: 250px;
-     width: 40%;
-         
+     width: 40%;   
 }
 .trainings-2 p{
      color: #ffffff;
