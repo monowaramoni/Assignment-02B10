@@ -2,7 +2,7 @@
      box-sizing: border-box;
      margin: 0;
      padding: 0;
-      
+
    }
 
    @import url('https://fonts.cdnfonts.com/css/miama');
@@ -294,7 +294,7 @@ h5 {
      .banner {
          
           flex-direction: column;
-          margin-top: -170px; 
+          margin-top: -180px; 
   
      }
      .shape{
@@ -1129,7 +1129,7 @@ border-collapse: collapse;
 
      .footer {
           flex-direction:column;
-          padding: 30px 20px;
+          padding: 2px 20px;
           align-items: self-start;
 
      }
@@ -1140,7 +1140,7 @@ border-collapse: collapse;
      .copyright p {
 
           padding-left:0px;
-          padding-right:120px;
+          padding-right:190px;
           text-align: start;
                    
      }
