@@ -257,8 +257,6 @@ h5 {
  
  }
 
-
-
 .mini-box-1 {
      padding: 15px 12PX;
      background-color: #f3f3f31b;
@@ -329,7 +327,7 @@ h5 {
           padding: 13px 25px;
  
      }
-  
+} 
 @media screen and (min-width : 576px) and (max-width : 992px) {
      .banner {
          
