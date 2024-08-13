@@ -508,18 +508,16 @@ h5 {
           flex-direction:column;  
           column-gap: 20px;
           padding: 20px;
-         
-          
 
      }
     
      .Run-an-Extra {
     
-          padding:20px 135px 20px 135px;
+          padding:20px 185px 20px 185px;
 
      }
      .Run-an-Extra img {
-          width:330px;   
+          width:350px;   
           border-radius: 10px;
           margin-top: 50px;
           
