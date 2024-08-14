@@ -1175,11 +1175,10 @@ border-collapse: collapse;
      }
      
      .copyright p {
-
-          padding-left:20px;
-          padding-right:20px;
+          padding-left:50px;
+          padding-right:50px;
           text-align: start;
-                   
+        
      }
        }
 /* Footer small device responsive end */
