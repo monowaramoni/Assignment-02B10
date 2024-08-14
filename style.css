@@ -1124,6 +1124,10 @@ border-collapse: collapse;
      flex-direction:row;
      align-items: center;
      gap: 40px;
+     width: 100%;
+}
+.footer-colum{
+     width: 30%;
 }
 
 .Get-Started  li {
@@ -1131,7 +1135,7 @@ border-collapse: collapse;
      padding-top:15px ;
      list-style: none;
      color: #b0b0b0;
-     
+   
 }
 .Get-Started li:hover {    
      color: #ff5733;
@@ -1171,6 +1175,7 @@ border-collapse: collapse;
           flex-direction:column;
           padding: 2px 20px;
           align-items: self-start;
+          gap: 20px;
 
      }
      
@@ -1179,6 +1184,9 @@ border-collapse: collapse;
           padding-right:50px;
           text-align: start;
         
+     }
+     .footer-colum{
+          width: 100%;
      }
        }
 /* Footer small device responsive end */
