@@ -29,11 +29,11 @@ h2 {
 }
 @media screen and (max-width :576px){
      h2 {
-          font-size: 40px;
+          font-size: 30px;
      }    
 }
 h3 {
-     font-size: 35px;
+     font-size: 22px;
 }
 @media screen and (max-width :576px){
      h3 {
@@ -279,10 +279,7 @@ h5 {
 
     
 }  
-.mini-box-2 img {
-     margin: 0px;
-     padding: 0px;
-}
+
 /* banner section responsive here */
 
 @media screen and (max-width : 576px) {
@@ -311,7 +308,7 @@ h5 {
      .column-2 {
           margin-bottom: -04px;
           padding-top: 40px;
-          padding-left: 30px;
+          
 
      }
      .btn-1 {
@@ -325,9 +322,22 @@ h5 {
      .column-1 {
           width: 100%;
      }
-     .column-2 {
-          width: 100%;
+     .mini-box-1 {
+          padding: 12px 12PX;
+          margin-left: -155px;
+          margin-top:75px;
      }
+     .mini-box-1  p {
+          font-size: 12px;
+          
+     }
+     .mini-box-2 {
+         
+          margin-left: -310px;
+          margin-top: 260px;
+     
+         
+     } 
 } 
 @media screen and (min-width : 576px) and (max-width : 992px) {
      .banner {
