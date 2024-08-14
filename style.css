@@ -50,11 +50,8 @@ h5 {
  p {
      color: #b0b0b0;
      font-size: 15px;
-     
+    
  }
-
-
-
 
 /* Dynamic setup */
 
@@ -102,7 +99,6 @@ h5 {
     color: #fff;
     border-color:  #ff5733;  
 
-
 }
 /* header resposive here */
 
@@ -118,7 +114,6 @@ h5 {
      .logo {
           
           font-size: 66px;
-          
      }
      .nav {
           display: flex;
@@ -317,8 +312,7 @@ h5 {
           margin-bottom: -04px;
           padding-top: 40px;
           padding-left: 30px;
-          
-          
+
      }
      .btn-1 {
           padding: 13px 25px;
@@ -327,6 +321,9 @@ h5 {
      .btn-2 {
           padding: 13px 25px;
  
+     }
+     .column-1 {
+          width: 100%;
      }
 } 
 @media screen and (min-width : 576px) and (max-width : 992px) {
