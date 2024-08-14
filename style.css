@@ -325,6 +325,9 @@ h5 {
      .column-1 {
           width: 100%;
      }
+     .column-2 {
+          width: 100%;
+     }
 } 
 @media screen and (min-width : 576px) and (max-width : 992px) {
      .banner {
@@ -510,11 +513,11 @@ h5 {
     
      .Run-an-Extra {
     
-          padding:20px 185px 20px 185px;
+          padding:20px 175px 20px 175px;
 
      }
      .Run-an-Extra img {
-          width:350px;   
+          width:280px;   
           border-radius: 10px;
           margin-top: 50px;
           
@@ -524,12 +527,12 @@ h5 {
           padding: 0px;
      }
      .container-1 {
-          width:350px
+          width:100%;
      }
-     .container- {
-          width: 350px;
+     .container-2 {
+          width:100%;
      }
-}
+    
 
 @media screen and (min-width : 576px) and (max-width : 992px) {
      .inner-section-run {   
@@ -1146,14 +1149,11 @@ border-collapse: collapse;
           align-items: self-start;
 
      }
-     .footer-colum p {
-          margin-bottom: 0px;
-     }
      
      .copyright p {
 
           padding-left:0px;
-          padding-right:100px;
+          padding-right:8gi0px;
           text-align: start;
                    
      }
